@@ -1,0 +1,52 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: green;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  height: 40px;
+}
+
+#value {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  font-size: 50px;
+}
+
+.increase,
+.decrease,
+.reset {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 50px;
+  text-align: center;
+  height: 80px;
+  background-color: burlywood;
+}
+
+.increase:hover {
+  border-radius: 60px;
+  background-color: rgb(216, 216, 29);
+  color: rgb(16, 16, 238);
+  border-color: rgb(216, 216, 29);
+}
+.decrease:hover {
+  border-radius: 60px;
+  background-color: rgb(216, 216, 29);
+  color: rgb(212, 18, 18);
+  border-color: rgb(216, 216, 29);
+}
+
+.reset:hover {
+  border-radius: 60px;
+  background-color: rgb(216, 216, 29);
+  color: rgb(68, 67, 67);
+  border-color: rgb(216, 216, 29);
+}

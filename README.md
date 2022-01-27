@@ -1,0 +1,1 @@
+Basic clickable counter inc. and dec. with reset
